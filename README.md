@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/TranHHoang/cpphlang.svg?branch=master)](https://travis-ci.org/TranHHoang/cpphlang)
+[![Build Status](https://travis-ci.com/TranHHoang/cpphlang.svg?branch=master)](https://travis-ci.com/TranHHoang/cpphlang)
 
 # H Programming Language
 Aim to replace `C++` and other languages in programming contest.
