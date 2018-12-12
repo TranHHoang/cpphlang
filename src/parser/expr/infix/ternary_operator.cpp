@@ -1,5 +1,5 @@
 #include "hlang/parser/expr/infix/ternary_operator.h"
-#include "hlang/parser/parser.h"
+#include "hlang/parser/expr_parser.h"
 #include "hlang/ast/ast_headers.h"
 
 namespace HLang
@@ -9,7 +9,7 @@ namespace HLang
         parser.consume(TokenType::Colon);
         auto falseArm = parser.parse(0);
 
-        return make_unique<TernaryOperatorNode>(
+        return std::make_unique<TernaryOperatorExpr>(
                 std::move(token),
                 std::move(leftExpr), // condition
                 std::move(trueArm), // if condition is true

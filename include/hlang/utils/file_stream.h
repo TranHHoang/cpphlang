@@ -8,16 +8,17 @@ namespace HLang
     {
     public:
         ReadonlyFileStream(const std::string& name, std::istream& stream)
-            : name(name), stream(stream) { }
+            : pathName(name), stream(stream) { }
         ReadonlyFileStream(const ReadonlyFileStream& stream)
-            : name(stream.name), stream(stream.stream) { }
+            : pathName(stream.pathName), stream(stream.stream) { }
 
-        char nextChar() { return stream.get(); }
-        char peekChar() { return stream.peek(); }
-        bool isEof() { return stream.eof(); }
-        void unread() { stream.unget(); }
+        char nextChar() const { return stream.get(); }
+        char peekChar() const { return stream.peek(); }
+        bool isEof() const { return stream.peek() == EOF; }
+        void unread() const { stream.unget(); }
+        std::string getPathName() const { return pathName; }
     private:
-        std::string name;
+        std::string pathName;
         std::istream& stream;
     };
 }

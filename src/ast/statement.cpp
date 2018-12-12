@@ -1,17 +1,49 @@
-#include "hlang/ast/stmt/statement.h"
+#include "hlang/ast/ast_headers.h"
 #include "hlang/visitor/ast_visitor.h"
 
 namespace HLang
 {
-    void ExpressionStatement::accept(HLang::AstVisitor &visitor) {
+    void AssignmentStmt::accept(HLang::AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 
-    void CompoundStatement::accept(HLang::AstVisitor &visitor) {
+    void Statements::accept(HLang::AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 
-    void VarDeclStatement::accept(HLang::AstVisitor &visitor) {
+    void VarDeclStmt::accept(HLang::AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void ParallelAssignmentStmt::accept(AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void ParamDeclStmt::accept(AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void ProcDeclStmt::accept(AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void BlockStmt::accept(AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void ProgramRoot::accept(AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void CallStmt::accept(AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void IfStmt::accept(AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void ForStmt::accept(AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 }

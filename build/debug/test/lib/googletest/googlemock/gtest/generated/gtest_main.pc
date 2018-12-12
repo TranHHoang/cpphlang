@@ -1,5 +1,5 @@
-libdir=/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/lib
-includedir=/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include
+libdir=/media/tranhoang/Data/IT/Project/CPPHLang/lib
+includedir=/media/tranhoang/Data/IT/Project/CPPHLang/include
 
 Name: gtest_main
 Description: GoogleTest (with main() function)

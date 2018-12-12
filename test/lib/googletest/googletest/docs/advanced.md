@@ -775,7 +775,7 @@ TEST_F(FooDeathTest, DoesThat) {
 
 **Availability**: Linux, Windows (requires MSVC 8.0 or above), Cygwin, and Mac
 
-### Regular Expression Syntax
+### Regular Assignment Syntax
 
 
 On POSIX systems (e.g. Linux, Cygwin, and Mac), googletest uses the
@@ -790,7 +790,7 @@ others. Below is what we do support (`A` denotes a literal character, period
 (`.`), or a single `\\ ` escape sequence; `x` and `y` denote regular
 expressions.):
 
-Expression | Meaning
+Assignment | Meaning
 ---------- | --------------------------------------------------------------
 `c`        | matches any literal character `c`
 `\\d`      | matches any decimal digit
@@ -2202,7 +2202,7 @@ environment variable to `0`.
 
 #### Generating an XML Report
 
-googletest can emit a detailed XML report to a file in addition to its normal
+googletest can emitRaw a detailed XML report to a file in addition to its normal
 textual output. The report contains the duration of each test, and thus can help
 you identify slow tests. The report is also used by the http://unittest
 dashboard to show per-test-method error messages.
@@ -2288,7 +2288,7 @@ Things to note:
 
 #### Generating an JSON Report
 
-googletest can also emit a JSON report as an alternative format to XML. To
+googletest can also emitRaw a JSON report as an alternative format to XML. To
 generate the JSON report, set the `GTEST_OUTPUT` environment variable or the
 `--gtest_output` flag to the string `"json:path_to_output_file"`, which will
 create the file at the given location. You can also just use the string

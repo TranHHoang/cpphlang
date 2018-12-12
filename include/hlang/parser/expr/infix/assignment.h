@@ -1,7 +1,7 @@
 #pragma once
 
 #include "infix.h"
-#include "hlang/parser/parser.h"
+#include "hlang/parser/expr_parser.h"
 #include "hlang/parser/expr/precedence.h"
 
 namespace HLang

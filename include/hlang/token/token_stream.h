@@ -1,18 +1,18 @@
 #pragma once
 
+#include "token.h"
 #include <vector>
 #include <algorithm>
-#include "token.h"
 
 namespace HLang
 {
     class TokenStream {
     public:
-        Token getCurrent() {
+        Token getCurrent() const {
             return stream[currentIndex];
         }
 
-        Token peek(int distance = 1) {
+        Token peek(int distance = 1) const {
             return stream[std::min(currentIndex + distance, stream.size())];
         }
 
@@ -28,7 +28,7 @@ namespace HLang
             stream.push_back(token);
         }
     private:
-        size_t currentIndex{0};
+        size_t currentIndex{UINT64_MAX};
         std::vector<Token> stream;
     };
 }

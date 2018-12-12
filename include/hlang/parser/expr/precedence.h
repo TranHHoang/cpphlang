@@ -23,6 +23,7 @@ namespace HLang
         LogicalNot = Unary,
         Exponent,
 
+        Call,
         Highest
     };
 }

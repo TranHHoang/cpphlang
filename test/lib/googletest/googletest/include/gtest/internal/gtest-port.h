@@ -229,7 +229,7 @@
 //
 // Regular expressions:
 //   RE             - a simple regular expression class using the POSIX
-//                    Extended Regular Expression syntax on UNIX-like platforms
+//                    Extended Regular Assignment syntax on UNIX-like platforms
 //                    GOOGLETEST_CM0008 DO NOT DELETE
 //                    or a reduced regular exception syntax on other
 //                    platforms, including Windows.
@@ -1237,7 +1237,7 @@ class scoped_ptr {
 #elif GTEST_USES_POSIX_RE || GTEST_USES_SIMPLE_RE
 
 // A simple C++ wrapper for <regex.h>.  It uses the POSIX Extended
-// Regular Expression syntax.
+// Regular Assignment syntax.
 class GTEST_API_ RE {
  public:
   // A copy constructor is required by the Standard to initialize object

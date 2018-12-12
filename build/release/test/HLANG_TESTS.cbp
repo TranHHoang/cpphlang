@@ -8,423 +8,501 @@
 		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\googlemock\;CMake Files\test\lib\googletest\googlemock\cmake\;CMake Files\test\lib\googletest\googletest\;CMake Files\test\lib\googletest\googletest\cmake\;CMake Files\src\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hlang_tests">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/hlang_tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/hlang_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 hlang_tests"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 hlang_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hlang_tests/fast">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/hlang_tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/hlang_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 hlang_tests/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 hlang_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest"/>
+				<Option output="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/include"/>
-					<Add directory="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/include"/>
+					<Add directory="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/tranhoang/Data/IT/Project/CPPHLang/build/release/test/lib/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/ast/ast_headers.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/ast_headers.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/ast/expr/binary_node.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/expr/binary_operator.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/ast/expr/identifier_node.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/expr/call.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/ast/expr/literal_node.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/expr/identifier.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/ast/expr/ternary_node.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/expr/literal.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/ast/expr/unary_node.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/expr/range.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/error/parse_error.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/expr/ternary_operator.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/expr_headers.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/expr/unary_operator.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/infix/assignment.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/assignment.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/infix/binary_operator.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/block.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/infix/infix.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/call.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/infix/ternary_operator.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/for.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/precedence.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/if.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/prefix/identifier.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/params_decl.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/prefix/literal.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/proc_decl.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/prefix/parentheses.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/program.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/prefix/prefix.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/stmts.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/expr/prefix/unary_operator.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/ast/stmt/var_decl.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/include/hlang/parser/parser.h">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/builtin/range.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/ast/expression.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/error/parse_error.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/ast/statement.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/error/type_error.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/lexer/lexer.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/expr_headers.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/parser/expr/infix/assignment.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/infix/assignment.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/parser/expr/infix/binary_operator.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/infix/binary_operator.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/parser/expr/infix/ternary_operator.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/infix/call.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/parser/expr/prefix/identifier_node.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/infix/infix.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/parser/expr/prefix/literal.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/infix/ternary_operator.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/parser/expr/prefix/parentheses.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/precedence.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/parser/expr/prefix/unary_operator.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/prefix/identifier.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/parser/parser.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/prefix/literal.h">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock/src/gmock-all.cc">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/prefix/parentheses.h">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/prefix/prefix.h">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr/prefix/unary_operator.h">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/expr_parser.h">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/parser/stmt_parser.h">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/visitor/analyzer/analyzer.h">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/visitor/generator/cpp_emitter.h">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/include/hlang/visitor/generator/cpp_gen.h">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/ast/expression.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/ast/statement.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/lexer/lexer.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/expr/infix/assignment.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/expr/infix/binary_operator.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/expr/infix/call.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/expr/infix/ternary_operator.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/expr/prefix/identifier.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/expr/prefix/literal.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/expr/prefix/parentheses.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/expr/prefix/unary_operator.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/expr_parser.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/parser/stmt_parser.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/visitor/analyzer/analyzer.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/visitor/generator/cpp_emitter.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/visitor/generator/cpp_gen.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock/src/gmock_main.cc">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/src/gtest-all.cc">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/src/gtest_main.cc">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/main.cpp">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/main.cpp">
 			<Option target="hlang_tests"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/CMakeLists.txt">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/src/demo_tests.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/src/run_all_tests.cpp">
+			<Option target="hlang_tests"/>
+		</Unit>
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/CMakeLists.txt">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/CMakeLists.txt">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\googletest\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock/CMakeLists.txt">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\googletest\googlemock\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\test\lib\googletest\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\test\lib\googletest\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/CMakeLists.txt">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\googletest\googletest\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/cmake/Config.cmake.in">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\test\lib\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/cmake/gtest.pc.in">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\test\lib\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\test\lib\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/test/lib/googletest/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/test/lib/googletest/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test\lib\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/media/tranhoang/Data/IT/Project/C++HLang/C++HLang/src/CMakeLists.txt">
+		<Unit filename="/media/tranhoang/Data/IT/Project/CPPHLang/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>

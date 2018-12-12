@@ -3,31 +3,39 @@
 
 namespace HLang
 {
-    void LiteralNode::accept(AstVisitor &visitor) {
+    void LiteralExpr::accept(AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 
-    void IdentifierNode::accept(AstVisitor &visitor) {
+    void IdentifierExpr::accept(AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 
-    void UnaryOperatorNode::accept(AstVisitor &visitor) {
+    void UnaryOperatorExpr::accept(AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 
-    void TernaryOperatorNode::accept(AstVisitor &visitor) {
+    void TernaryOperatorExpr::accept(AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 
-    void BinaryOperatorNode::accept(AstVisitor &visitor) {
+    void BinaryOperatorExpr::accept(AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 
-    void AssignmentNode::accept(AstVisitor &visitor) {
+    void AssignmentExpr::accept(AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 
-    void ArrayDeclNode::accept(AstVisitor &visitor) {
+    void ArrayDeclExpr::accept(AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void CallExpr::accept(AbstractVisitor &visitor) {
+        visitor.visit(*this);
+    }
+
+    void RangeExpr::accept(AbstractVisitor &visitor) {
         visitor.visit(*this);
     }
 }

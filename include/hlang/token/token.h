@@ -9,14 +9,17 @@ namespace HLang
     {
         // Special token, mark the end of token stream
         EndOfStream,
-
         // Integer
         IntLiteral, HexLiteral, OctLiteral, BinLiteral,
-
         // Double type
         DoubleLiteral,
         BoolLiteral,
+        StringLiteral,
+
         DoubleQuote, SingleQuote,
+
+        // Marker
+        Indent, Dedent,
 
         // Keyword or identifier
         Identifier,
@@ -45,13 +48,13 @@ namespace HLang
         // Bitwise operators
         LeftShift, RightShift, BitwiseAnd, BitwiseOr, BitwiseXor, BitwiseNot,
 
-        EndBlock,
-
         // Special punctuations
         Comma, SemiColon,
 
         // Language keywords
-        Var,
+        Var, Set, Call,
+        If, Else, Elif, While, For, In, Range, Case,
+        Proc, Func,
     };
 
     const std::string TokenToString[] = {
@@ -59,7 +62,9 @@ namespace HLang
         "IntLiteral", "HexLiteral", "OctLiteral", "BinLiteral",
         "DoubleLiteral",
         "BoolLiteral",
+        "StringLiteral",
         "DoubleQuote", "SingleQuote",
+        "Indent", "Dedent",
         "Identifier",
         "Plus", "Minus", "Star", "Slash", "Div", "Percent", "Mod", "DoubleStar",
         "Equal", "NotEqual", "Less", "LessOrEqual", "Greater", "GreaterOrEqual",
@@ -69,14 +74,16 @@ namespace HLang
         "Assign",
         "Quest", "Colon",
         "LeftShift", "RightShift", "BitwiseAnd", "BitwiseOr", "BitwiseXor", "BitwiseNot",
-        "EndBlock",
         "Comma", "SemiColon",
         // Language keywords
-        "Var",
+        "Var", "Set", "Call",
+        "If", "Else", "Elif", "While", "For", "In", "Case",
+        "Proc", "Func",
     };
 
     struct Token
     {
+        std::string FilePath;
         TokenType Type;
         std::string Value;
         size_t Line;

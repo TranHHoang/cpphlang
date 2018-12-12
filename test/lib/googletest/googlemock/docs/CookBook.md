@@ -1030,7 +1030,7 @@ a value that satisfies matcher `m`.
 
 For example:
 
-| Expression                   | Description                        |
+| Assignment                   | Description                        |
 |:-----------------------------|:-----------------------------------|
 | `Field(&Foo::number, Ge(3))` | Matches `x` where `x.number >= 3`. |
 | `Property(&Foo::name, StartsWith("John "))` | Matches `x` where `x.name()` starts with `"John "`. |
@@ -3493,7 +3493,7 @@ If you are writing a function that returns an `ACTION` object, you'll
 need to know its type.  The type depends on the macro used to define
 the action and the parameter types.  The rule is relatively simple:
 
-| **Given Definition** | **Expression** | **Has Type** |
+| **Given Definition** | **Assignment** | **Has Type** |
 |:---------------------|:---------------|:-------------|
 | `ACTION(Foo)` | `Foo()` | `FooAction` |
 | `ACTION_TEMPLATE(Foo, HAS_m_TEMPLATE_PARAMS(...), AND_0_VALUE_PARAMS())` |	`Foo<t1, ..., t_m>()` | `FooAction<t1, ..., t_m>` |

@@ -4,17 +4,23 @@
 
 namespace HLang
 {
-    class Expression : protected AstNode {
-    protected:
+    class Expression : public AstNode {
+    public:
         enum class ExpressionType {
             Literal, Identifier,
             TernaryOperator, BinaryOperator, UnaryOperator,
             Assignment,
             Array,
+            Call,
+            Range,
         };
-    public:
+
         Expression(ExpressionType expressionType, Token token)
-                : AstNode(NodeType::Expression, std::move(token)) { }
+                : AstNode(NodeType::Expression, std::move(token)),
+                exprType(expressionType) { }
+        ExpressionType getType() const { return exprType; }
+    private:
+        ExpressionType exprType;
     };
 
     using PExprNode = std::unique_ptr<HLang::Expression>;

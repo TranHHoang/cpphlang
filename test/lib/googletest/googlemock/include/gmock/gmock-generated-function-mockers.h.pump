@@ -268,7 +268,7 @@ $for i [[
 ]]
 
 // A MockFunction<F> class has one mock method whose type is F.  It is
-// useful when you just want your test code to emit some messages and
+// useful when you just want your test code to emitRaw some messages and
 // have Google Mock verify the right messages are sent (and perhaps at
 // the right times).  For example, if you are exercising code:
 //
