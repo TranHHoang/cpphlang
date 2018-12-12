@@ -13,8 +13,7 @@ Follow the instructions to get a copy of the project on local machine
 You will need:
 
 - CMake 3.2
-- C++ compiler with C++11 support
-- LLVM
+- C++ compiler with C++17 support
 
 ### Building the project
 
